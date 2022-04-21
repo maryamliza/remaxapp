@@ -7,6 +7,6 @@
 
     <fragment
         android:id="@+id/departmentFragment"
-        android:name="com.example.remaxapp.ui.DepartmentFragment"
-        tools:layout="@layout/fragment_department" />
+        android:name="com.example.remaxapp.ui.DepartmentListFragment"
+        tools:layout="@layout/fragment_list_department" />
 </navigation>

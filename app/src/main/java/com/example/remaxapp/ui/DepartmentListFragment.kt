@@ -5,17 +5,17 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.example.remaxapp.databinding.FragmentDepartmentBinding
+import com.example.remaxapp.databinding.FragmentListDepartmentBinding
 
-class DepartmentFragment:Fragment (){
-    private lateinit var binding: FragmentDepartmentBinding
+class DepartmentListFragment:Fragment (){
+    private lateinit var binding: FragmentListDepartmentBinding
 
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        binding = FragmentDepartmentBinding.inflate(layoutInflater)
+        binding = FragmentListDepartmentBinding.inflate(layoutInflater)
         return binding.root
     }
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
